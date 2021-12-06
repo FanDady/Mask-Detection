@@ -1,0 +1,6 @@
+classes= 2
+train  = /home/darknet/maskdata/train.txt
+valid  = /home/darknet/maskdata/val.txt
+names = /home/darknet/maskdata/voc.names
+backup = /home/darknet/maskdata/backup
+
