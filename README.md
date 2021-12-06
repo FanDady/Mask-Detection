@@ -208,6 +208,8 @@ nomask
 
 ```
 sudo ./darknet detector train maskdata/voc.data maskdata/yolov3-tiny.cfg yolov3-tiny.conv.15
+
+# 注意：如果训练过程遇到Cannot load image "" STB Reason: can't fopen问题是因为txt文件格式问题，大概率可能是因为换行符，因为在Windows下txt文件里# 面的换行符和Linux下的不太一样需要对txt文件进行格式转换，这里推荐下载notepad++软件进行修改，进入软件打开视图->显示符合->显示所有符号，然后点击编辑-> # 文档格式转换->转unix
 ```
 
 - 测试模型
